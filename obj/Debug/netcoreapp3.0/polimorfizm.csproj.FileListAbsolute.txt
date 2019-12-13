@@ -1,0 +1,11 @@
+/Users/mcwilag/Projects/nauka/polimorfizm/obj/Debug/netcoreapp3.0/polimorfizm.csprojAssemblyReference.cache
+/Users/mcwilag/Projects/nauka/polimorfizm/obj/Debug/netcoreapp3.0/polimorfizm.AssemblyInfoInputs.cache
+/Users/mcwilag/Projects/nauka/polimorfizm/obj/Debug/netcoreapp3.0/polimorfizm.AssemblyInfo.cs
+/Users/mcwilag/Projects/nauka/polimorfizm/bin/Debug/netcoreapp3.0/polimorfizm
+/Users/mcwilag/Projects/nauka/polimorfizm/bin/Debug/netcoreapp3.0/polimorfizm.deps.json
+/Users/mcwilag/Projects/nauka/polimorfizm/bin/Debug/netcoreapp3.0/polimorfizm.runtimeconfig.json
+/Users/mcwilag/Projects/nauka/polimorfizm/bin/Debug/netcoreapp3.0/polimorfizm.runtimeconfig.dev.json
+/Users/mcwilag/Projects/nauka/polimorfizm/bin/Debug/netcoreapp3.0/polimorfizm.dll
+/Users/mcwilag/Projects/nauka/polimorfizm/bin/Debug/netcoreapp3.0/polimorfizm.pdb
+/Users/mcwilag/Projects/nauka/polimorfizm/obj/Debug/netcoreapp3.0/polimorfizm.dll
+/Users/mcwilag/Projects/nauka/polimorfizm/obj/Debug/netcoreapp3.0/polimorfizm.pdb
