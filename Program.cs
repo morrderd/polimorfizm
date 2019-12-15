@@ -1,63 +1,57 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Dziedziczenie
 {
+    class Ksztalt
+    {
+        public double dlugosc;
+        public double szerokosc;
+        public double wysokosc;
+        
+        public virtual void ObliczPole()
+        {
+            
+        }
+    }
+
+    class Kwadrat : Ksztalt
+    {
+        public override void ObliczPole()
+        {
+            base.ObliczPole();
+        }
+    }
+    class Trojkat : Ksztalt
+    {
+        public override void ObliczPole()
+        {
+            base.ObliczPole();
+        }
+    }
+    class Kolo : Ksztalt
+    {
+        public override void ObliczPole()
+        {
+            base.ObliczPole();
+        }
+    }
+
     class Program
     {
         static void Main()
         {
-            Prostokat pr = new Prostokat();
-            pr.UstawSzerokosc(4);
-            pr.UstawWysokosc(5);
-            Console.WriteLine(pr.WyswietWysokosc(pr.wysokosc));
-            Console.WriteLine(pr.WyswietSzerokosc(pr.szerokosc));
-            Console.WriteLine("Powierzchnia prostokąta: {0}", pr.ObliczPowierzchnie());
-            Console.ReadKey();
-        }
-    }
+            var figury = new List<Ksztalt>
+            {
+                new Kwadrat(),
+                new Trojkat(),
+                new Kolo()
+            };
 
-    class Ksztalt
-    {
-        public int szerokosc;
-        public int wysokosc;
-
-        public void UstawWysokosc(int w)
-        {
-            wysokosc = w;
-        }
-        public void UstawSzerokosc(int s)
-        {
-            szerokosc = s;
-        }
-
-        
-    }
-
-    public interface WyswietlInformacje 
-    {
-        string WyswietWysokosc(int wysokosc);
-
-        string WyswietSzerokosc(int szerokosc);
-    }
-
-
-    class Prostokat : Ksztalt, WyswietlInformacje
-    {
-        public int ObliczPowierzchnie()
-        {
-            return wysokosc * szerokosc;
-        }
-
-        public string WyswietWysokosc(int wysokosc)
-        {
-            string info = String.Format("Długość to: {0}", wysokosc);
-            return info;
-        }
-
-        public string WyswietSzerokosc(int szerokosc)
-        {
-            string info = String.Format("Szerokość to: {0}", szerokosc);
-            return info;
+            foreach (var ksztalt in figury)
+            {
+                ksztalt.ObliczPole();
+            }
         }
     }
 }
